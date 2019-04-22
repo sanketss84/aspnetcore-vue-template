@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using EmailCampaign.Admin.Utility;
+using AspNetCoreTemplate.Utility;
 using Microsoft.AspNetCore.Server.IISIntegration;
 
-namespace EmailCampaign.Admin
+namespace AspNetCoreTemplate
 {
     public class Startup
     {

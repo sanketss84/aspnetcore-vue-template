@@ -1,10 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using EmailCampaign.Admin.Models;
-using EmailCampaign.Admin.Utility;
 using Microsoft.AspNetCore.Authorization;
 
-namespace EmailCampaign.Admin.Controllers
+namespace AspNetCoreTemplate.Controllers
 {    
     public class HomeController : Controller
     {        
