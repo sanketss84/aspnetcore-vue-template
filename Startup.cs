@@ -39,7 +39,7 @@ namespace AspNetCoreTemplate
             services.AddAuthorization(options => {
                 options.AddPolicy(UserPolicy.SiteUser, policy =>
                 {
-                    policy.RequireRole(UserPolicy.GenmillsSiteUserGroup,UserPolicy.ExtGenmillsSiteUserGroup);                    
+                    policy.RequireRole(UserPolicy.SiteUser);                    
                 });
             });
 
